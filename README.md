@@ -66,7 +66,7 @@ Formatted and displayed in the application's forecast area.
 
 ### Structure and Purpose
 
-Each node in the ExTree corresponds to a single day's weather data, encapsulated in an ExTreeNode. This node holds not just the weather data for that particular day, but also aggregates from its child nodes.
+Each node in the Tree corresponds to a single day's weather data, encapsulated in an TreeNode. This node holds not just the weather data for that particular day, but also aggregates from its child nodes.
 
 - **Weather data for each day** includes temperature, humidity, pressure, wind speed, and precipitation. This data is stored in each node when new forecast data is inserted into the tree.
 
